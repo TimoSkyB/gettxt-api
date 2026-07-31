@@ -1,0 +1,23 @@
+{
+  "name": "@gettxt/api-examples",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TypeScript client and examples for the gettxt document-to-text API",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
+  "homepage": "https://gettxt.ai/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimoSkyB/gettxt-api.git",
+    "directory": "typescript"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
+
